@@ -65,9 +65,11 @@ WSGI_APPLICATION = 'main.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        # 'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
         # 'NAME': config('DB_NAME'),
-        'NAME': 'django-ecommerce',
+        # 'NAME': 'django-ecommerce',
         'USER': 'danterkum16@gmail.com',
         # 'USER': config('DB_USER'),
         'PASSWORD': 'rfwqyotokufmbwmp',
