@@ -15,7 +15,7 @@ SECRET_KEY = 'k93v1l@t#0%!0r!v&5fgs#s=y^w(3(6z#v#x$w=yz2m4)l=)5r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-ecommerce-with-backlogging-5.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
